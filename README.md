@@ -1,2 +1,0 @@
-# dhtp-client
-dhtp client
