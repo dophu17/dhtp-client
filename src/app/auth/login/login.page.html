@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="myForm" (submit)="login()">
+    <ion-list>
+      <ion-item>
+          <ion-label position="stacked">Phone</ion-label>
+          <ion-input formControlName="phone" type="text">
+          </ion-input>
+      </ion-item>
+
+
+      <ion-item>
+          <ion-label position="stacked">Password</ion-label>
+          <ion-input formControlName="password" type="password">
+          </ion-input>
+      </ion-item>
+    </ion-list>
+
+    <ion-row class="signin">
+      <ion-col>
+          <ion-button type="submit" color="primary" shape="full" expand="block">Login</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-content>

@@ -1,5 +1,7 @@
 {
   "name": "dhtp-client",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

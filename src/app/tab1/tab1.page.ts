@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
+  constructor() {
+    
+  }
+
+  changeDate($event) {
+    console.log($event.detail.value)
+  }
 
 }
